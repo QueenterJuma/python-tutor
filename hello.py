@@ -81,3 +81,11 @@ Boolean Type:	bool
 Binary Types:	bytes, bytearray, memoryview
 None Type:	NoneType
 """
+#Getting the Data Type  
+"""
+You  can use the type() function to get the data type of any variable like this:
+print(type("Hello"))    #Return
+<class 'str'>
+print(type(10))         #Return
+<class 'int'>
+"""
