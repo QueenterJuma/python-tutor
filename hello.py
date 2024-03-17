@@ -88,4 +88,10 @@ print(type("Hello"))    #Return
 <class 'str'>
 print(type(10))         #Return
 <class 'int'>
+
+x = True
+print(type(x))          #Return
+<class 'bool'>        #Notice that
+#Python treats capitalized words as
+#True when used in Boolean context. 
 """
