@@ -116,3 +116,23 @@ x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview	
 x = None	NoneType
 """
+#Python Numbers
+"""
+There are three numeric types in Python:
+int
+float
+complex
+The int() function converts a number or string  
+to an integer. If no argument is given,
+it returns zero. 
+The float() function converts a number or 
+string to a floating point number.
+argument is supplied it returns zero.
+The complex() function creates a complex number.
+It takes two arguments: the real part and the
+imaginary part. A complex number can be
+written with j instead of i. For example,
+4 + 3j represents the same number as
+4 + 3*j.
+
+"""
