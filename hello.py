@@ -147,3 +147,9 @@ Import the random module, and display a random number between 1 and 9:
 import random
 
 print(random.randrange(1, 10))"""
+
+#Python Casting
+"""You can use the int(), float(),
+and complex() functions to cast values from one type
+to another. The str() function can also be
+used to convert a value to a string."""
