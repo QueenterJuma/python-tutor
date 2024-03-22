@@ -171,3 +171,18 @@ w = float("4.2") # w will be 4.2
 x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
+
+#Python Strings
+"""
+A string is a sequence of characters. You can
+create strings by enclosing characters in quotes.
+There are two types of quotes you can use:
+single quotes (' ') or double quotes (" ").
+If you need to include a quote within a string
+you can use either single or double quotes around it
+or escape the quote with a backslash (\).
+To create a multiline string you can enc
+lose the lines in triple quotes (" """ """).
+
+
+"""
