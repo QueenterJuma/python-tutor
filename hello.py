@@ -240,4 +240,25 @@ Check if "free" is present in the following text:
 txt = "The best things in life are free!"
 print("free" in txt)
 Output: True
+
+**Use it in an if statement:
+
+Example
+Print only if "free" is present:
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.") #Output: Yes , 'free' is present.
+'''
+#Check if NOT
+'''
+To check if a certain phrase or character is NOT present in a string, 
+we can use the keyword not in.
+
+Example
+Check if "expensive" is NOT present in the following text:
+
+txt = "The best things in life are free!"
+print("expensive" not in txt) 
+Output: True
 '''
