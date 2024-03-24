@@ -222,3 +222,22 @@ for x in "banana":
   n
   a
   """
+#String Length
+'''
+To get the length of a string, use the len() function.
+The len() function returns the length of a string:
+
+a = "Hello, World!"
+print(len(a))
+Output: 13
+'''
+#Check String
+'''
+To check if a certain phrase or character is 
+present in a string, we can use the keyword in.
+Check if "free" is present in the following text:
+
+txt = "The best things in life are free!"
+print("free" in txt)
+Output: True
+'''
