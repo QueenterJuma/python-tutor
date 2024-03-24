@@ -196,5 +196,29 @@ example:
 r"\n\tHello World!" becomes "\
 """
 
+#Strings are Arrays
+"""In Python, strings are arrays of bytes
+that encode Unicode characters. If you want
+to access individual characters in a string,
+you can do so like this:
+print(s[0]) # prints first character
+print(s[-1]) # prints last character
+"""
+#Looping Through a String
+"""
+Since strings are arrays, we can loop 
+through the characters in a string, 
+with a for loop.
+Example
+Loop through the letters in the word "banana":
 
-#
+for x in "banana":
+  print(x)
+  Output: 
+  b
+  a
+  n
+  a
+  n
+  a
+  """
