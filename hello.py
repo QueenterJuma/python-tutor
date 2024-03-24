@@ -181,13 +181,13 @@ single quotes (' ') or double quotes (" ").
 If you need to include a quote within a string
 you can use either single or double quotes around it
 or escape the quote with a backslash (\).
-
+"""
 #Multiline Strings
-Strings can span multiple lines if they are en
+"""Strings can span multiple lines if they are en
 closed in triple quotes ( """ """) or (''' '''). Newlines
-are included in the string as \n.
+are included in the string as \n."""
 #Raw Strings
-Raw strings don’t have any special meaning for
+"""Raw strings don’t have any special meaning for
 backslashes, so you can include literal back
 slashes in them without having to worry about
 escaping them. Raw strings are created using
@@ -195,5 +195,6 @@ the prefix r instead of the regular prefix. For
 example:
 r"\n\tHello World!" becomes "\
 """
+
 
 #
