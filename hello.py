@@ -285,3 +285,14 @@ Output: Hello World
 print('Hello World')
 Output: Hello World
 '''
+#Assign String to a Variable
+'''
+Assigning a string to a variable is done with the
+ variable name followed by an equal sign 
+ and the string
+
+ Example:
+ my_string = "This is a string."
+ print(my_string)
+ Output: This is a string.
+'''
