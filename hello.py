@@ -352,3 +352,24 @@ Example:
 a = "Hello, World!"
 print(len(a))   # Output:  13
 """
+
+#Check String
+'''
+To check if a certain phrase or character is 
+present in a string, we can use the keyword in.
+
+Example
+Check if "free" is present in the following text:
+
+txt = "The best things in life are free!"
+print("free" in txt)     #Output: True
+
+Use it in an if statement:
+Example
+Print only if "free" is present:
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+  Output: Yes, 'free' is present
+'''
