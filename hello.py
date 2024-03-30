@@ -272,3 +272,16 @@ if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")
   Output: No, 'expensive' is NOT
 '''
+#PYTHON STRINGS
+#Strings
+'''A sequence of characters enclosed by double or single quotes (
+'' or ") is called a string in Python.
+String literal are displayed by print() fuunction
+
+Example:
+print("Hello World")
+Output: Hello World
+
+print('Hello World')
+Output: Hello World
+'''
