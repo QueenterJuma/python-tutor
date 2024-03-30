@@ -296,3 +296,35 @@ Assigning a string to a variable is done with the
  print(my_string)
  Output: This is a string.
 '''
+#Multiline Strings
+'''
+You can assign a multiline string to a variable by using three quotes:
+
+Example
+You can use three double/single quotes:
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+Output: Lorem ipsum dolor sit amet, conse
+ctetur adipiscing elit,sed do eiusmod 
+tempor incididuntut labore et dolore 
+magna aliququa.
+'''
+#Strings are Arrays
+'''
+Strings in Python are arrays of bytes 
+representingunicode characters
+
+However, Python does not have a character data type, 
+a single character is simply a string with a length of 1.
+
+**Square brackets can be used to access elements of the string.
+Example
+Get the character at position 1 (remember that the first character has the position 0):
+
+a = "Hello, World!"
+print(a[1])  # Output: e
+'''
