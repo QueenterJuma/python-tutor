@@ -345,3 +345,10 @@ for x in "banana":
   n
   a
 '''
+#String Lenghth
+"""
+The len() function returns the length of a string:
+Example:
+a = "Hello, World!"
+print(len(a))   # Output:  13
+"""
