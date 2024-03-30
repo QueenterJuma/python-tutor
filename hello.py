@@ -316,7 +316,7 @@ magna aliququa.
 #Strings are Arrays
 '''
 Strings in Python are arrays of bytes 
-representingunicode characters
+representing unicode characters
 
 However, Python does not have a character data type, 
 a single character is simply a string with a length of 1.
@@ -327,4 +327,21 @@ Get the character at position 1 (remember that the first character has the posit
 
 a = "Hello, World!"
 print(a[1])  # Output: e
+'''
+#Looping Through a String
+'''
+Since  strings are arrays, we can loop through the
+characters in a string, with a #for loop
+Example
+Loop through the letters in the word "banana":
+
+for x in "banana":
+  print(x)
+  Output: 
+  b
+  a
+  n
+  a
+  n
+  a
 '''
