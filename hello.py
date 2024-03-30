@@ -410,4 +410,11 @@ Output: llo
 
 ***NOTE// The first character has index 0.
 """
+#Slice From the Start
+'''
+Get the characters from the start to position 5 (not included):
+b =  "Hello, World!"
+print(b[:5])
+Output: Hello
+'''
 
