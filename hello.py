@@ -456,4 +456,10 @@ a = "Hello, World!"
 print(a.upper()) 
 Output: HELLO, WORLD!
 '''
-
+#Lower Case
+'''
+The lower() method returns the string in lower case
+a = 'Hello, World!'
+print(a.lower())
+Output: hello, world!
+'''
