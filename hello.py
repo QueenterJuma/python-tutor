@@ -433,17 +433,15 @@ Output: llo, World!
 '''
 Use negative indexes to start the  slicing from the end  of the string:
 Example:
-Example
 Get the characters:
 
 From: "o" in "World!" (position -5)
 
-To, but not included: "d" in "World!" (position -2):
-
+To, but not included: "d" in "World!" (position -2):'''
 b = "Hello, World!"
 print(b[-5:-2])
-Output: orl
-'''
+#Output: orl
+
 
 #Python Modifying Strings
 '''Python has a built-in methods that can use on strings'''
@@ -462,3 +460,16 @@ The lower() method returns the string in lower case'''
 a = 'Hello, World!'
 print(a.lower())
 #Output: hello, world!
+
+#Reme Whitespace
+'''
+Whitespace is the space before and/or after the actual text,
+and very often you want to remove this space.
+'''
+#Examples:
+
+'''
+The strip() method removes any whitespace from the beginning or the end:
+'''
+a = "   Hello, World!   "
+print(a.strip()) # Output: Hello, World!
