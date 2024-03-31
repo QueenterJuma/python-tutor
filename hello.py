@@ -444,3 +444,16 @@ b = "Hello, World!"
 print(b[-5:-2])
 Output: orl
 '''
+
+#Python Modifying Strings
+'''Python has a built-in methods that can use on strings'''
+
+#Upper Case
+'''
+The upper() methods returns the string in upper case:
+Example:
+a = "Hello, World!" 
+print(a.upper()) 
+Output: HELLO, WORLD!
+'''
+
