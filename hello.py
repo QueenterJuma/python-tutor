@@ -461,7 +461,7 @@ a = 'Hello, World!'
 print(a.lower())
 #Output: hello, world!
 
-#Reme Whitespace
+#Remove Whitespace
 '''
 Whitespace is the space before and/or after the actual text,
 and very often you want to remove this space.
@@ -473,3 +473,9 @@ The strip() method removes any whitespace from the beginning or the end:
 '''
 a = "   Hello, World!   "
 print(a.strip()) # Output: Hello, World!
+
+#Replace String
+'''The replace() method replaces a string with another string:'''
+a = "Hello, World!"
+print(a.replace("World", "Python  ")) 
+# Output: Hello, Python!  
