@@ -450,16 +450,15 @@ Output: orl
 
 #Upper Case
 '''
-The upper() methods returns the string in upper case:
-Example:
+The upper() methods returns the string in upper case:'''
+#Example:
 a = "Hello, World!" 
 print(a.upper()) 
-Output: HELLO, WORLD!
-'''
+#Output: HELLO, WORLD!
+
 #Lower Case
 '''
-The lower() method returns the string in lower case
+The lower() method returns the string in lower case'''
 a = 'Hello, World!'
 print(a.lower())
-Output: hello, world!
-'''
+#Output: hello, world!
