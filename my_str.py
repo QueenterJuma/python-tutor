@@ -315,3 +315,15 @@ it finds instances of the separator:'''
 a = "Hello, World!"
 print(a.split(",")) 
 # Output: ['Hello', ' World !']
+
+#String Concatenation
+'''
+To cancatenate, or combine, two strings you can use  + operator
+'''
+#Example
+'''Merge variable a with variable b into variable c:'''
+a = "Hello"
+b = ", World!"
+c = a + b
+print(c) 
+# Output: Hello, World
