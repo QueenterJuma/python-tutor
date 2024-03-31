@@ -326,4 +326,13 @@ a = "Hello"
 b = ", World!"
 c = a + b
 print(c) 
-# Output: Hello, World
+# Output: Hello,World!
+
+#Example:
+'To add a space between them add " ":'
+a =  "Hello"
+b = ", World!"
+c = a + " " + b
+print(c)
+# Output: Hello, World!
+
