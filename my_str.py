@@ -358,7 +358,7 @@ where the placeholders {} are:
 into strings'''
 
 age = 26
-txt = "My  name is Queen, I am {}".
+txt = "My  name is Queen, I am {}"
 print(txt.format(age)) 
 #Output: My  name is Queen, I am 26
 
@@ -437,3 +437,22 @@ translate()	Returns a translated string
 upper()	Converts a string into upper case
 zfill()	Fills the string with a specified number of 0 values at the beginning
 '''
+
+#Python - Escape Characters
+'''
+To insert characters that are illegal in a string, use an escape character.
+
+An escape character is a backslash \ followed by the character you want to insert.
+
+An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+'''
+#Example
+x = "I said \"Hello\""
+y = 'I said "Hello"' #This would cause a syntax error because Python
+print(x) # Output: I said  "Hello"
+print(y) # Output: SyntaxError:
+#Solution
+x = "I said \"Hello\""
+y = 'I said \'Hello\''
+print(x) # Output: I said "Hello"
+print(y) # Output: I said 'Hello'
